@@ -1,0 +1,25 @@
+{
+	"name": "mihaildev/yii2-project-blank",
+	"type": "yii2-project",
+    "minimum-stability" : "dev",
+	"authors": [
+		{
+            "name": "Mihail",
+            "email": "mihail.kucher@gmail.com"
+		}
+	],
+	"autoload": {
+		"psr-0": { "app\\": "" }
+	},
+	"target-dir": "app",
+	"require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*",
+        "twbs/bootstrap": "*",
+        "yiisoft/yii2-bootstrap": "*",
+        "yiisoft/yii2-codeception": "*",
+        "yiisoft/yii2-debug": "*",
+        "yiisoft/yii2-gii": "*",
+        "yiisoft/yii2-swiftmailer": "*"
+	}
+}
