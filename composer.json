@@ -14,8 +14,9 @@
 	"target-dir": "app",
 	"require": {
         "php": ">=5.4.0",
+        "mihaildev/yii2-projectmanager":"*",
         "yiisoft/yii2": "*",
-        "twbs/bootstrap": "*",
+        "twbs/bootstrap": "3.0.0",
         "yiisoft/yii2-bootstrap": "*",
         "yiisoft/yii2-codeception": "*",
         "yiisoft/yii2-debug": "*",
