@@ -7,6 +7,7 @@ $config = [
     'basePath' => dirname(__DIR__),
     'extensions' => require(YII_PROJECT_VENDORPATH. '/yiisoft/extensions.php'),
     'runtimePath' => YII_PROJECT_PRIVATEPATH."/runtime",
+    'vendorPath' => YII_PROJECT_VENDORPATH,
 
     'preload'=>['backend'],
 
