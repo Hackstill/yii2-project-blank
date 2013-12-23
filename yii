@@ -1,0 +1,19 @@
+#!/usr/bin/env php
+<?php
+defined('YII_DEBUG') or define('YII_DEBUG', true);
+
+define('YII_PROJECT_VENDORPATH', __DIR__."/vendor");
+define('YII_PROJECT_PRIVATEPATH', __DIR__);
+define('YII_PROJECT_WEBPATH', __DIR__."/www");
+define('YII_PROJECT_PATH', __DIR__);
+
+defined('STDIN') or define('STDIN', fopen('php://stdin', 'r'));
+
+require(YII_PROJECT_VENDORPATH . '/autoload.php');
+require(YII_PROJECT_VENDORPATH . '/yiisoft/yii2/yii/Yii.php');
+
+$config = require(YII_PROJECT_PRIVATEPATH . '/config/console.php');
+
+$application = new yii\console\Application($config);
+$exitCode = $application->run();
+exit($exitCode);
