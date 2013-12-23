@@ -1,7 +1,7 @@
 <?php
 
 Yii::setAlias('@private', YII_PROJECT_PRIVATEPATH);
-Yii::setAlias('@web', YII_PROJECT_WEBPATH);
+Yii::setAlias('@webroot', YII_PROJECT_WEBPATH);
 return [
     'id' => 'basic-console',
     'basePath' => dirname(__DIR__),
