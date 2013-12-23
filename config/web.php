@@ -9,22 +9,9 @@ $config = [
     'runtimePath' => YII_PROJECT_PRIVATEPATH."/runtime",
     'vendorPath' => YII_PROJECT_VENDORPATH,
 
-    'preload'=>['backend'],
+    'preload'=>[],
 
     'components' => [
-        'backend' => [
-            'class' => 'app\backend\Component',
-
-            'prefix' => 'backend',
-            'indexAction' => 'site/backend',
-
-            'backend' => [
-                'name' => 'backend',
-            ],
-
-            'frontend' => [],
-
-        ],
         'cache' => [
             'class' => 'yii\caching\FileCache',
         ],

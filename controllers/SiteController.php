@@ -52,12 +52,6 @@ class SiteController extends Controller
 		return $this->render('index');
 	}
 
-    public function actionBackend()
-    {
-
-        return $this->render('index');
-    }
-
 	public function actionLogin()
 	{
 		if (!\Yii::$app->user->isGuest) {
