@@ -9,7 +9,13 @@
 		}
 	],
 	"autoload": {
-		"psr-0": { "app\\": "" }
+		"psr-0": {
+            "app\\commands\\": "commands",
+            "app\\assets\\": "assets",
+            "app\\controllers\\": "controllers",
+            "app\\models\\": "models",
+            "app\\views\\": "views"
+        }
 	},
 	"target-dir": "app",
 	"require": {
